@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Tue Apr 12 14:02:14 2022
-
-@author: Nagawa
-"""
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -54,9 +47,6 @@ n = np.array([5, 2, 2, 2, 4, 8, 9, 2, 7, 7, 5, 5, 10, 4, 7, 14])
 
 e = Q/n
 em = np.mean(e)
-
-def func(x, a, b):
-    return a*x + b
 
 from scipy.stats import linregress
 
